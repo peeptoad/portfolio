@@ -1,0 +1,29 @@
+.skills-div
+
+    {
+        position: fixed;
+        background-color:rgba(0, 0, 0, 0.9);
+        top: 350px;
+        bottom: 10px;
+        padding: 7px;
+        
+        font-size: 12px;
+        text-align: left;
+        height: fit-content;
+        align-items: center;
+        z-index: 100;
+        color: white;
+        border-radius: 5px;
+        font-family: 'Raleway', sans-serif;
+        width: 200px;
+    }
+
+.skills-header
+{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+

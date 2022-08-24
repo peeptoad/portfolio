@@ -1,0 +1,42 @@
+.contact-info
+{
+    position: fixed;
+    background-color:rgba(0, 0, 0, 0.9);
+    top: 30px;
+    bottom: 75px;
+    padding: 7px;
+    font-size: 18px;
+    text-align: center;
+    height: 270px;
+    align-items: center;
+    z-index: 100;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+}
+
+hr 
+{
+    
+        border: solid rgba(255, 255, 255, 0.7);
+        border-radius: 5px;
+}
+
+.linkedin-icon
+{
+    
+    height: 40px;
+}
+
+.linkedin-icon:hover
+{
+    height: 45px;
+    transition: .3s;
+    cursor: pointer;
+    
+}
+
+.linkedin-icon:active
+{
+    height: 38px;
+}

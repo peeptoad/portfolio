@@ -1,0 +1,4 @@
+column-gap:10px;
+   row-gap: 10px;
+   max-width: 650px;
+   margin: auto;

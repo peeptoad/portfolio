@@ -2,7 +2,7 @@
 {
     position: fixed;
     background-color:rgba(0, 0, 0, 0.9);
-    top: 30px;
+    top: 75px;
     bottom: 75px;
     padding: 7px;
     font-size: 18px;
@@ -15,28 +15,55 @@
     font-family: 'Raleway', sans-serif;
 }
 
+.email
+{
+    color: rgba(0, 255, 247, 0.881);
+    text-decoration: none;
+}
+
+.email:hover
+{
+    color: rgb(0, 166, 255);
+    transition: .7s;
+}
+
+.email:active
+{
+
+    transition: .0s;
+    color: rgb(22, 5, 49);
+}
+
 hr 
 {
     
-        border: solid rgba(255, 255, 255, 0.7);
+        border: solid rgba(10, 208, 226, 0.708);
         border-radius: 5px;
 }
 
-.linkedin-icon
+.contact-icon-div
 {
-    
-    height: 40px;
+    display: inline;
 }
 
-.linkedin-icon:hover
+.contact-icon
 {
-    height: 45px;
+    height: 40px;
+    padding: 0px;
+    margin: 0;
+    border-radius: 50%;
+    width: min-content;
+}
+
+.contact-icon:hover
+{
+    height: 42px;
     transition: .3s;
     cursor: pointer;
-    
+    padding: 0;
 }
 
-.linkedin-icon:active
+.contact-icon:active
 {
     height: 38px;
 }

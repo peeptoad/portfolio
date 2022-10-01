@@ -1,12 +1,19 @@
-
+body
+{
+  color: rgb(255, 255, 255);
+}
 
 h1
 {
     position: relative;
 }
+
+
+
+
  .background-image
 {
-  background-color: blue;
+  
   position: fixed;
   padding: auto;
   margin: auto;
@@ -57,4 +64,20 @@ h1
 .home-icon
 {
   margin-top: 0;
+}
+
+.credits, .credits-link
+{
+  position: fixed;
+  z-index: 100;
+  color: rgb(3, 255, 238);
+  display: inline;
+  bottom: 5px;
+  margin-left: 12px;
+}
+
+.credits-link:hover
+{
+   color: blue;
+   transition: .5s;
 }

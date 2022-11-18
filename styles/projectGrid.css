@@ -3,10 +3,8 @@
    padding-left: 350px;
    padding-right: 350px;
 }
-
 .project-header-div
 {  
-
    display: flex;
    align-items: center;
    background-color:rgba(0, 0, 0, 0.9);
@@ -26,7 +24,6 @@
 
 .project-header-div:hover
 {   
-   
     border-top-left-radius: 0px ;
    border-bottom-right-radius:0px ;
     border-top-right-radius: 10px ;
@@ -34,15 +31,11 @@
    background-color: rgba(255, 255, 255, .7);
    transition: .7s;
    color: black;
-   
 }
-
 
 .project-header
 {
-  margin: 4px;
-  
-   
+  margin: 4px;  
 }
 
 .project-preview-grid 
@@ -60,11 +53,8 @@
    padding-right: 210px;
 }
 
-
-
 .project-preview 
 {
-
     display: flex;
     flex-direction: column;
     background-color:rgba(150, 150, 150, 0.83);
@@ -73,8 +63,6 @@
     border-radius: 5px;
     transition: .7s;
     border: 1px rgb(157, 157, 157) solid;
-    
-
 }
 
 .project-preview:hover 
@@ -83,9 +71,6 @@
     color: white;
     transition: .7s;
     box-shadow: 3px 3px rgba(0, 0, 0, .6);
-    cursor: pointer;
-    z-index: 200;
-  
 }
 
 .project-preview:active 
@@ -109,33 +94,16 @@
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
- 
-.project-title-div
-{
-   width: 400px;
-   height: 214px;
-   background-color: rgba(0, 0, 0, 0.8);
-   position: absolute;
-   text-align: center;
-   border-top-left-radius: 5px;
-   border-top-right-radius: 5px;
-   transition: .7s;
-}
-
- .project-title-div:hover
-{
-    opacity: .0;
-    transition: .7s;
-}
 
  .project-title 
 {
-    position: relative;
-    font-size: 40px;
-    
-    color: aliceblue;
-    
-   
+   text-align: center;
+   font-size: 24px;
+}
+
+.project-inactive
+{
+    color: rgb(81, 81, 81);
 }
 
 .project-info
@@ -176,8 +144,7 @@
     background-color: rgba(255, 255, 255, .7);
     color: black; 
     transition: .7s;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
 
 .project-links:active

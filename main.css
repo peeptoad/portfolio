@@ -1,0 +1,83 @@
+body
+{
+  color: rgb(255, 255, 255);
+}
+
+h1
+{
+    position: relative;
+}
+
+
+
+
+ .background-image
+{
+  
+  position: fixed;
+  padding: auto;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+}
+
+.home-button
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  color: white;
+  background-color:rgba(0, 0, 0, 0.9);
+  width: fit-content;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+  height: min-content;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: .5s;
+ 
+}
+
+.home-button:hover, .home-icon:hover
+{
+  cursor: pointer;
+  font-size: 21px;
+}
+
+.home-button:active, .home-icon:active
+{
+  font-size: 19px;
+}
+ 
+.home 
+{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.home-icon
+{
+  margin-top: 0;
+}
+
+.credits, .credits-link
+{
+  position: fixed;
+  z-index: 100;
+  color: rgb(3, 255, 238);
+  display: inline;
+  bottom: 5px;
+  margin-left: 12px;
+}
+
+.credits-link:hover
+{
+   color: blue;
+   transition: .5s;
+}

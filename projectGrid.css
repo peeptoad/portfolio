@@ -1,0 +1,153 @@
+.header-container
+{
+   padding-left: 350px;
+   padding-right: 350px;
+}
+.project-header-div
+{  
+   display: flex;
+   align-items: center;
+   background-color:rgba(0, 0, 0, 0.9);
+   width: fit-content;
+   height: fit-content;
+   position: relative;
+   margin: auto;
+   margin-top: 25px;
+   margin-bottom: 10px;
+   text-align: center;
+   border-top-left-radius: 10px ;
+   border-bottom-right-radius:10px ;
+   font-family: 'Raleway', sans-serif;
+   color: white;
+   transition: .7s;
+}
+
+.project-header-div:hover
+{   
+    border-top-left-radius: 0px ;
+   border-bottom-right-radius:0px ;
+    border-top-right-radius: 10px ;
+   border-bottom-left-radius:10px ;
+   background-color: rgba(255, 255, 255, .7);
+   transition: .7s;
+   color: black;
+}
+
+.project-header
+{
+  margin: 4px;  
+}
+
+.project-preview-grid 
+{
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+   display: grid;
+   grid-template-columns: 
+   repeat(auto-fill, minmax(410px, 1fr));
+   grid-column-gap: 10px;
+   grid-row-gap:10px;
+   max-width: 830px;
+   margin: auto;
+   padding-left: 210px;
+   padding-right: 210px;
+}
+
+.project-preview 
+{
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(150, 150, 150, 0.83);
+    width: min-content;
+    margin: auto;
+    border-radius: 5px;
+    transition: .7s;
+    border: 1px rgb(157, 157, 157) solid;
+}
+
+.project-preview:hover 
+{
+    background-color:rgba(0, 0, 0, 0.9);
+    color: white;
+    transition: .7s;
+    box-shadow: 3px 3px rgba(0, 0, 0, .6);
+}
+
+.project-preview:active 
+{
+    opacity: .2;
+    transition: .7s;
+}
+
+.project-display 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.preview-photo 
+{
+    width: 400px;
+    height: 214px;
+    position: relative;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+ .project-title 
+{
+   text-align: center;
+   font-size: 24px;
+}
+
+.project-inactive
+{
+    color: rgb(81, 81, 81);
+}
+
+.project-info
+{
+    font-size: 16.5;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    width: fit-content;
+    padding: 7px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.project-description 
+{
+  margin: 0;
+}
+
+.project-skills 
+{
+  margin: 0;
+}
+
+.project-links
+{
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    height: 34px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 3px;
+}
+
+.project-links:hover
+{
+    background-color: rgba(255, 255, 255, .7);
+    color: black; 
+    transition: .7s;
+    cursor: pointer; 
+}
+
+.project-links:active
+{
+    box-shadow: 2px 2px inset black;
+}
